@@ -1,0 +1,6 @@
+transaction_id,user_id,amount,timestamp,country,user_country,payment_method,device_id,is_fraud
+TXN1,U1,12000,2025-01-10 10:30:00,IN,IN,credit_card,D1,0
+TXN2,U2,85000,2025-01-10 2:15:00,NG,IN,prepaid_card,D2,1
+TXN3,U1,3000,2025-01-10 11:45:00,IN,IN,upi,D1,0
+TXN4,U3,99000,2025-01-11 1:10:00,RU,IN,crypto,D3,1
+TXN5,U2,4500,2025-01-11 14:20:00,IN,IN,credit_card,D2,0
