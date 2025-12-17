@@ -30,3 +30,9 @@ and dashboard-ready outputs.
 ---
 
 ## Project Structure
+
+hybrid-payment-fraud-detection/
+│── fraud_system.py
+│── transactions.csv
+│── fraud_results.csv
+│── requirements.txt
