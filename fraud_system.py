@@ -1,5 +1,4 @@
 
-
 # -----------------------------
 # Imports
 # -----------------------------
@@ -105,7 +104,9 @@ def hybrid_fraud_detection(row, model):
 def fraud_alert(tx_id, score):
     print(f"🚨 FRAUD ALERT | Transaction {tx_id} | Risk Score: {score:.2f}")
 
-
+# -----------------------------
+# Main Pipeline
+# -----------------------------
 
 if __name__ == '__main__':
     df = load_data('transactions.csv')
@@ -131,3 +132,4 @@ if __name__ == '__main__':
 
     df.to_csv('fraud_results.csv', index=False)
     print("\nFraud detection completed. Results saved to fraud_results.csv")
+
